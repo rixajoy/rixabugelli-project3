@@ -1,0 +1,87 @@
+body {
+  font-size: 16px;
+  font-family: Oxygen;
+}
+
+.pickerPage {
+  padding-top: 1em;
+  letter-spacing: 0.05em;
+}
+
+.pickerPage .center input.search {
+  width: 25em;
+  height: 1.8em;
+  padding: 0.25em 1em;
+  font-size: 1em;
+  font-family: Oxygen;
+  letter-spacing: 0.08em;
+}
+
+.pickerPage .center input.enter {
+  margin: 10px;
+  width: 5em;
+  height: 2.5em;
+  padding: 0.5em 0.5em;
+  font-size: 1em;
+  color: white;
+  background-color: black;
+}
+
+.pickerPage button {
+  background-color: #02779e;
+  margin-top: 1.5em;
+  width: 20em;
+  height: 3em;
+  font-size: 1em;
+  font-family: Oxygen;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+.pickerPage h2 {
+  text-align: center;
+  margin: 0.4em;
+  margin-top: 2em;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.pickerPage h3 {
+  font-size: 1em;
+  margin: 0.4em;
+  font-weight: 300;
+}
+
+.pickerPage .center, .allSongs .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allSongs {
+  margin-top: 2em;
+}
+
+.labels h2 {
+  font-weight: 300;
+  letter-spacing: .12em;
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  background-color: #02779e;
+  padding: 1em;
+  margin: 0.1em;
+  width: 30em;
+  border: 1px solid black;
+}
+
+.labels p {
+  font-weight: 300;
+  letter-spacing: .12em;
+  font-size: 1em;
+  color: black;
+  padding: 1em;
+  margin: 0.1em;
+  width: 30em;
+  border: 1px solid black;
+}

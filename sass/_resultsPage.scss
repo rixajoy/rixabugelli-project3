@@ -1,0 +1,37 @@
+.allResults {
+
+	margin:0;
+	margin-top:2em;
+
+
+	.center {
+		@extend %fullCenter;
+	}
+
+}
+
+.songList {
+
+	list-style: none;
+	@extend %fullCenter;
+	margin:0;
+
+
+
+	h3 {
+		font-weight: 300;
+		letter-spacing: .12em;
+		font-size: 1em;
+		color:black;
+		padding: 1em;
+		margin:0.1em;	
+		width:30em;
+		border: 1px solid black;
+
+	}
+}
+
+ul.allResults {
+	margin:0;
+	padding:0;
+}
